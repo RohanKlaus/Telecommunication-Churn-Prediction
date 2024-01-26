@@ -11,7 +11,7 @@ class SessionState:
         for key, val in kwargs.items():
             setattr(self, key, val)
 
-loaded_model = load('Churn.h5')
+loaded_model = load('Telecomchurn.h5')
 
 # Initialize session state
 session_state = SessionState(show_result=False)
